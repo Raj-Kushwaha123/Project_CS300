@@ -1,0 +1,23 @@
+Transfer Learning on MNIST using ImageNet Pretrained ResNet (PyTorch)
+Introduction
+This project demonstrates the use of transfer learning by applying an ImageNet-pretrained
+ResNet-18 model to the MNIST handwritten digit dataset. The objective is to achieve high accuracy
+with minimal training effort.
+Dataset
+MNIST contains 60,000 training and 10,000 testing grayscale images of digits from 0 to 9. Images
+were resized to 224×224 and converted to 3-channel RGB format to match ImageNet requirements.
+Methodology
+A ResNet-18 model pretrained on ImageNet was used. The final fully connected layer was replaced
+with a 10-class classifier. All pretrained layers were frozen, and only the last layer was trained.
+Training Configuration
+Loss Function: CrossEntropyLoss
+Optimizer: Adam
+Learning Rate: 0.001
+Batch Size: 64
+Epochs: 3
+Results
+The model achieved a test accuracy of 96.37% (0.9637), demonstrating the effectiveness of
+transfer learning.
+Conclusion
+Transfer learning significantly reduced training time while achieving high accuracy. This project
+highlights how pretrained models can be effectively reused for smaller datasets.
