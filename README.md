@@ -1,4 +1,4 @@
-# Project_CS300
+# Project_CS300 ( Domain Adaptation via Pre-Training and Fine-Tuning )
 # AI / Machine Learning Project (CS300)
 
 ## Course Information
