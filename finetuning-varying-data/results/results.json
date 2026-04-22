@@ -1,0 +1,17 @@
+{
+    "20%": {
+        "FC Only": 0.775,
+        "Last Block": 0.838,
+        "Full FT": 0.779
+    },
+    "50%": {
+        "FC Only": 0.7946,
+        "Last Block": 0.8836,
+        "Full FT": 0.8664
+    },
+    "100%": {
+        "FC Only": 0.8059,
+        "Last Block": 0.9083,
+        "Full FT": 0.8844
+    }
+}
